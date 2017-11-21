@@ -1,0 +1,273 @@
+body {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #fff;
+    letter-spacing: 1px;
+    height: 100%;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #686868;
+}
+.container {
+  padding-right: 0px;
+  padding-left: 13px;
+}
+#our-team {
+  padding-bottom: 25px;
+}
+#services p {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+#clients-logo-section {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+#clients-logo-section .clients-logo-img {
+  padding: 0px 10px;
+  left: 27%;
+  position: relative;
+}
+.agile, .angular, .bootstrap1, .css3, .devops, .HTML5, .msdax, .zoho {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url('/assets/bg/ourcapabilities.png');
+}
+.agile {
+  width: 150px;
+  height: 118px;
+  background-position: 92.6773% 12.6904%;
+  background-size: 629.667%;
+}
+.angular {
+  width: 130px;
+  height: 130px;
+  background-position: 35.2349% 13.0890%;
+  background-size: 706.692%;
+}
+.bootstrap1 {
+  width: 258px;
+  height: 119px;
+  background-position: 6.52742% 60.5598%;
+  background-size: 353.899%;
+}
+.css3 {
+  width: 90px;
+  height: 126px;
+  background-position: 52.9979% 12.9534%;
+  background-size: 990.78%;
+}
+.devops {
+  width: 323px;
+  height: 110px;
+  background-position: 51.0699% 59.2040%;
+  background-size: 272.028%;
+}
+.HTML5 {
+  width: 125px;
+  height: 125px;
+  background-position: 70.6340% 12.9199%;
+  background-size: 714.2%;
+}
+.msdax {
+  width: 215px;
+  height: 138px;
+  background-position: 6.18047% 13.3690%;
+  background-size: 470.279%;
+}
+.zoho {
+  width: 198px;
+  height: 70px;
+  background-position: 88.4988% 53.8462%;
+  background-size: 517.172%;
+}
+.services-section hr {
+  width: 42px;
+  margin-left: 0px;
+}
+.services-section .services-detail {
+  border-radius: 4px;
+  border-bottom-right-radius: 20%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 0px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 32px;
+}
+.services-section .services-detail:hover {
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+.services-section .services-detail .fa {
+  font-size: 42px;
+}
+.section-space-padding {
+  padding: 45px 0px;
+}
+.section-title {
+  text-align: center;
+}
+.section-title h2 {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  color: #e4681f;
+  font-family: 'orbitron', sans-serif;
+}
+.row {
+  margin-right: 0px;
+}
+.hr-margin-correct2 {
+  margin-top: 12px;
+}
+.hr-color1 {
+  border-bottom: 2px solid #e4681f;
+  border-top: none;
+}
+.hr-color2 {
+  border-bottom: 2px solid #ff0000;
+  border-top: none;
+}
+.hr-color3 {
+  border-bottom: 2px solid #0884d5;
+  border-top: none;
+}
+.val-font {
+  font-weight: 500;
+}
+.linked-in i {
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s;
+  font-size: 20px;
+  background: #006DC0;
+  padding: 5px;
+  color: #fff;
+  border-radius: 15%;
+}
+.linked-in i:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .team-mate {
+    margin: 0 auto 30px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .team-mate {
+    margin: 0 auto 30px;
+    width: 280px;
+  }
+}
+@media only screen and (min-width: 354px) and (max-width: 479px) {
+  .team-mate {
+    margin: 0 auto 31px;
+    width: 240px;
+  }
+  .section-title h2 {
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (max-width: 353px) {
+  .team-mate {
+    margin: 0 auto 31px;
+    width: 240px;
+  }
+  .section-title h2 {
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (min-width: 354px) {
+  .section-title h2 {
+    letter-spacing: 4px;
+  }
+}
+@media (max-width: 1150px) and (min-width: 980px) {
+  .team-mate {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1150px) and (min-width: 980px) {
+  .team-mate img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .trust-card, .mRespect-card, .centric-card, .teamwork-card, .learning-card {
+    padding-bottom: 1%;
+  }
+  .col-boot-xs-fix {
+    width: 90%;
+  }
+}
+@media (min-width:768px) and (max-width: 991px) {
+  .teamwork-card {
+    padding-bottom: 59%;
+  }
+  .fix-hr-sm {
+    margin-top: 38px !important;
+  }
+  .centric-card {
+    padding-bottom: 24%;
+  }
+  .learning-card {
+    padding-bottom: 14%;
+  }
+  .trust-card {
+    padding-bottom: 0.5%;
+    margin-top: 25px;
+  }
+  .hr-margin-correct {
+    margin-top: 12px;
+  }
+  .mRespect-card {
+    margin-top: 25px;
+    padding-bottom: 1.0%;
+  }
+}
+@media (min-width:992px) and (max-width: 1199px) {
+  .card {
+    min-height: 477px;
+  }
+  .hr-margin-correct {
+    margin-top: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    min-height: 381px;
+  }
+  .hr-margin-correct {
+    margin-top: 38px;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-2 {
+    width: 20%;
+  }
+}
