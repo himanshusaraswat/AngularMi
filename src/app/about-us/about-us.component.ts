@@ -1,8 +1,5 @@
-import { ViewChild,Component, OnInit } from '@angular/core';
-import { AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { WOW } from 'wowjs/dist/wow.min';
-
-declare var jquery:any;
 declare var $ :any;
 
 @Component({
@@ -18,5 +15,11 @@ export class AboutUsComponent implements OnInit,AfterViewInit {
   }
   ngAfterViewInit() {
    new WOW().init();
+   $(".owl-carousel").owlCarousel({
+     autoplay: 3000,
+     items: 3,
+     itemsDesktop: [1199, 3],
+     itemsDesktopSmall: [979, 3],
+   });
  }
 }

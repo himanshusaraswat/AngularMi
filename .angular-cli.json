@@ -22,7 +22,7 @@
         "styles.css","../node_modules/wowjs/css/libs/animate.css"
       ],
       "scripts": [
-         "../node_modules/wowjs/dist/wow.js"
+        "../node_modules/wowjs/dist/wow.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
