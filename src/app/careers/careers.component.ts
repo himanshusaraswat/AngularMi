@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-
+import {easyResponsiveTabs} from 'easy-responsive-tabs/js/easyResponsiveTabs';
 declare var $ :any;
 @Component({
   selector: 'app-careers',

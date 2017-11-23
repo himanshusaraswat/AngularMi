@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { WOW } from 'wowjs/dist/wow.min';
+import {owlCarousel} from 'owl.carousel/dist/owl.carousel.min';
 declare var $ :any;
-
 @Component({
   selector: 'app-about-us',
   templateUrl: './about-us.component.html',

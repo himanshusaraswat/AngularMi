@@ -19,10 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css","../node_modules/wowjs/css/libs/animate.css"
+        "styles.css","../node_modules/wowjs/css/libs/animate.css","../node_modules/easy-responsive-tabs/css/easy-responsive-tabs.css","assets/css/banner.css","../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
       ],
       "scripts": [
-        "../node_modules/wowjs/dist/wow.js"
+        "../node_modules/wowjs/dist/wow.js","../node_modules/easy-responsive-tabs/js/easyResponsiveTabs.js","../node_modules/owl.carousel/dist/owl.carousel.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
